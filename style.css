@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lora:wght@600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+}
+
+html,
+body {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+header {
+  padding: 45px 396px 80px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+.title p {
+  padding: 0;
+  margin: 0;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+
+  color: #2f2f2f;
+}
+
+.title {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.title > img {
+  padding-right: 45px;
+}
+
+.title::after {
+  content: "";  
+  background-image: url(./img/search.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  top: 12px;
+  left: 832px;
+  cursor: pointer;
+}
+
+.circle {
+  display: none;
+}
+
+#input {
+  width: 213px;
+  height: 52px;
+  background: #ffffff;
+  border: 2px solid #eaeaea;
+  border-radius: 100px;
+  padding: 5px 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  color: #2f2f2f;
+}
+
+.killjoy {
+  position: relative;
+  top: 50px;
+  right: 150px;
+}
+
+.brims {
+  position: relative;
+  top: 50px;
+  left: 550px;
+}
+
+.yoru {
+  position: relative;
+  top: 550px;
+  right: 500px;
+}
+
+.raze {
+  position: relative;
+  top: 650px;
+  right: 150px;
+}
+
+.reyna {
+  position: relative;
+  top: 530px;
+  left: 200px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.textMain h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #2f2f2f;
+}
+
+.textMain h1 {
+  width: 790px;
+  height: 210px;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 70px;
+  text-align: center;
+
+  color: #2f2f2f;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 72px;
+  margin-top: 40px;
+}
+
+#left {
+  width: 272px;
+  height: 59px;
+  background: #6610f2;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  color: #f9f9f9;
+}
+
+#right {
+  width: 292px;
+  height: 59px;
+  background: #ffffff;
+  border: 2px solid #eaeaea;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  color: #2f2f2f;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1128px;
+  height: 250px;
+  margin: 191px auto;
+  background: #f2f2f2;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+}
+
+span {
+  width: 3px;
+  height: 30px;
+
+  background: #6610f2;
+}
+
+.button h2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  opacity: 0.75;
+
+  color: #2f2f2f;
+}
+
+.button p {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  width: 400px;
+  height: 78px;
+
+  color: #2f2f2f;
+}
+
+@media (max-width: 420px) {
+  header {
+    padding: 24px 27px 43px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .title p {
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #2f2f2f;
+  }
+
+ 
+  .title > img {
+    padding-right: 8px;
+  }
+
+  .title::after {
+    left: 225px;
+  }
+
+  .circle {  
+    position: relative;
+  display: flex;
+  
+  
+  
+    
+   
+  }
+
+  .circle::after{
+    content: "";
+  position: absolute;
+  background-image: url(./img/fi_user.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  top: 41px;
+  left: 320px;
+  cursor: pointer;
+  }
+
+  #input {
+    display: none;
+  }
+
+  .killjoy {
+    display: none;
+  }
+
+  .brims {
+    display: none;
+  }
+
+  .yoru {
+    display: none;
+  }
+
+  .raze {
+    display: none;
+  }
+
+  .reyna {
+    display: none;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+  .textMain h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #2f2f2f;
+  }
+
+  .textMain h1 {
+    width: 288px;
+    height: 164px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #2f2f2f;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  #left {
+    width: 312px;
+    height: 35px;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 14px;
+    background: #6610f2;
+    border-radius: 6px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #f9f9f9;
+  }
+
+  #right {
+    width: 312px;
+    height: 35px;
+    background: #ffffff;
+    border: 2px solid #eaeaea;
+    border-radius: 6px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    color: #2f2f2f;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 272px;
+    margin: 25px auto;
+    background: #f2f2f2;
+  }
+
+  .button {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  span {
+    width: 3px;
+    height: 30px;
+    background: #6610f2;
+  }
+
+  .button h2 {
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    opacity: 0.75;
+
+    color: #2f2f2f;
+  }
+
+  .button p {
+    width: 282px;
+    height: 66px;
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+
+    color: #2f2f2f;
+  }
+}
